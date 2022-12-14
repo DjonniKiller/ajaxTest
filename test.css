@@ -1,6 +1,21 @@
-.new_list {
-    border: 1px solid black;
-    margin: 5px;
-    background-color: black;
-    color: white;
+div {
+	width: 100%;
+	text-align: center;
+	margin: 20px;
+}
+
+select {
+	width: 20%;
+	font-size: 16px;
+}
+
+.list_row {
+	margin: 5px;
+	font-size: 25px;
+}
+
+.result {
+	width: 50%;
+	margin: 20px 25% 0 25%;
+	text-align: left;
 }

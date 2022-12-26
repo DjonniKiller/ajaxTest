@@ -9,7 +9,7 @@ $(function () {
 	});
 
 	$('#users').change((event) => {
-		$('#todos').html('');
+		$('#todos').html('<option>-none-</option>');
 		$('#result').html('');
 
 		console.log(event.target.value);
